@@ -22,6 +22,7 @@
 		171930502B6CDE77002CBB86 /* openapi-generator-config.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = "openapi-generator-config.yaml"; sourceTree = "<group>"; };
 		171930512B6CDE77002CBB86 /* openapi.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = openapi.yaml; sourceTree = "<group>"; };
 		1719305D2B6CE041002CBB86 /* GreetingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingClient.swift; sourceTree = "<group>"; };
+		171E3D082B6D0327000EDA73 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
 		179CB6B42B6CDDD20094D7B0 /* swift-openapi-generator-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-openapi-generator-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		179CB6B72B6CDDD20094D7B0 /* swift_openapi_generator_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_openapi_generator_testApp.swift; sourceTree = "<group>"; };
 		179CB6B92B6CDDD20094D7B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,9 +44,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		171E3D072B6D0313000EDA73 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				171E3D082B6D0327000EDA73 /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
+			sourceTree = "<group>";
+		};
 		179CB6AB2B6CDDD20094D7B0 = {
 			isa = PBXGroup;
 			children = (
+				171E3D072B6D0313000EDA73 /* ci_scripts */,
 				179CB6B62B6CDDD20094D7B0 /* swift-openapi-generator-test */,
 				179CB6B52B6CDDD20094D7B0 /* Products */,
 			);
